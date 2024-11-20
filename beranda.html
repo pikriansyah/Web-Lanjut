@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - Pembayaran</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Pembayaran</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.php">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Selamat Datang di Layanan Pembayaran</h2>
+        
+        <div class="row">
+            <!-- Air -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="pdam.png" class="card-img-top" alt="Pembayaran Air">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Pembayaran Air</h5>
+                        <p class="card-text">Lakukan pembayaran tagihan air dengan mudah di sini.</p>
+                        <a href="pembayaran_air.php" class="btn btn-primary">Bayar Air</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Listrik -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="pln.png" class="card-img-top" alt="Pembayaran Listrik">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Pembayaran Listrik</h5>
+                        <p class="card-text">Lakukan pembayaran tagihan listrik dengan cepat.</p>
+                        <a href="pembayaran_listrik.php" class="btn btn-primary">Bayar Listrik</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pulsa -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="pulsa.png" class="card-img-top" alt="Pembayaran Pulsa">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Pembayaran Pulsa</h5>
+                        <p class="card-text">Isi ulang pulsa Anda dengan berbagai pilihan provider.</p>
+                        <a href="pembayaran_pulsa.php" class="btn btn-primary">Bayar Pulsa</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5 py-4 bg-light">
+        <p>&copy; 2024 Pembayaran. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
